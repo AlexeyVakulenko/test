@@ -1,57 +1,33 @@
 {
-  "project": {
-    "id": "brain",
-    "name": "brain",
-    "folder": "/"
+  "project" : {
+    "id" : "wewe-339-UBf",
+    "name" : "wewe-339-UBf",
+    "folder" : "/jaicp"
   },
-  "settings": {
-    "language": "ru",
-    "spellingCorrection": false,
-    "classificationAlgorithm": "sts",
-    "timezone": "Europe/Moscow",
-    "extendedSettings": {
-      "tokenizerEngine": "mystem"
-    }
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "UTC",
+    "shared" : false
   },
-  "intents": [
-    {
-      "path": "/пока",
-      "description": null,
-      "answer": null,
-      "customData": null,
-      "enabled": true,
-      "phrases": [
-        {
-          "text": "пока",
-          "entities": null
-        }
-      ],
-      "patterns": null,
-      "slots": null
-    },
-    {
-      "path": "/привет",
-      "description": null,
-      "answer": null,
-      "customData": null,
-      "enabled": true,
-      "phrases": [
-        {
-          "text": "привет",
-          "entities": null
-        }
-      ],
-      "patterns": null,
-      "slots": null
-    }
-  ],
-  "entities": [],
-  "enabledSystemEntities": [
-    "duckling.number",
-    "duckling.time",
-    "duckling.duration",
-    "duckling.phone-number",
-    "duckling.email",
-    "duckling.url"
-  ]
+  "intents" : [ {
+    "id" : 31547,
+    "path" : "/пока",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "пока"
+    } ]
+  }, {
+    "id" : 31548,
+    "path" : "/привет",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
+    } ]
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ]
 }
