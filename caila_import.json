@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "2555_2-15974-WFG",
-    "name" : "2555_2-15974-WFG",
+    "id" : "2607_4-339-fEP",
+    "name" : "2607_4-339-fEP",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -12,7 +12,7 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 147682,
+    "id" : 32510,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -20,7 +20,7 @@
       "text" : "пока"
     } ]
   }, {
-    "id" : 147683,
+    "id" : 32511,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
