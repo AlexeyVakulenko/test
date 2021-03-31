@@ -1,33 +1,55 @@
 {
-  "project" : {
-    "id" : "2555_2-15974-WFG",
-    "name" : "2555_2-15974-WFG",
-    "folder" : "/jaicp"
+  "project": {
+    "id": "brain",
+    "name": "brain",
+    "folder": "/"
   },
-  "settings" : {
-    "language" : "ru",
-    "spellingCorrection" : false,
-    "classificationAlgorithm" : "sts",
-    "timezone" : "UTC",
-    "shared" : false
+  "settings": {
+    "language": "ru",
+    "spellingCorrection": false,
+    "classificationAlgorithm": "sts",
+    "timezone": "Europe/Moscow",
+    "extendedSettings": null
   },
-  "intents" : [ {
-    "id" : 147682,
-    "path" : "/пока",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "пока"
-    } ]
-  }, {
-    "id" : 147683,
-    "path" : "/привет",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "привет"
-    } ]
-  } ],
-  "entities" : [ ],
-  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ]
+  "intents": [
+    {
+      "path": "/пока",
+      "description": null,
+      "answer": null,
+      "customData": null,
+      "enabled": true,
+      "phrases": [
+        {
+          "text": "пока",
+          "entities": null
+        }
+      ],
+      "patterns": null,
+      "slots": null
+    },
+    {
+      "path": "/привет",
+      "description": null,
+      "answer": null,
+      "customData": null,
+      "enabled": true,
+      "phrases": [
+        {
+          "text": "привет",
+          "entities": null
+        }
+      ],
+      "patterns": null,
+      "slots": null
+    }
+  ],
+  "entities": [],
+  "enabledSystemEntities": [
+    "duckling.number",
+    "duckling.time",
+    "duckling.duration",
+    "duckling.phone-number",
+    "duckling.email",
+    "duckling.url"
+  ]
 }
